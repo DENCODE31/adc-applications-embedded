@@ -4,7 +4,7 @@
   "clangd.arguments": [
     "--background-index",
     "--query-driver=**",
-    "--compile-commands-dir=c:\\Users\\ALIENWARE\\Desktop\\Personal\\UNAL_9_SEM\\STR\\Led_intensity_control\\build"
+    "--compile-commands-dir=${workspaceFolder}\\build"
   ],
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32c6"

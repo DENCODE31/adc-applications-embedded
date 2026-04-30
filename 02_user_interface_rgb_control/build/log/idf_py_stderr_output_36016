@@ -1,0 +1,3 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Espressif\python_env\idf5.5_py3.13_env\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=1 C:\Users\ALIENWARE\Desktop\Personal\UNAL_9_SEM\STR\adc-applications-embedded\02_user_interface_rgb_control
+fatal: bad config line 2 in file C:/esp/v5.5.2/esp-idf/.git/modules/components/bootloader/subproject/components/micro-ecc/micro-ecc/config
+fatal: bad config line 2 in file C:/esp/v5.5.2/esp-idf/.git/modules/components/openthread/openthread/config

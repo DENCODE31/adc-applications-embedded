@@ -17,4 +17,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/Led_intensity_control/build/bootloader/bootloader.elf
+file C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/adc-applications-embedded/02_user_interface_rgb_control/build/bootloader/bootloader.elf

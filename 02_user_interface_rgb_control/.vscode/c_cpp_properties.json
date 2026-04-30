@@ -16,12 +16,12 @@
         "C:/esp/v5.5.2/esp-idf/components/esp_driver_ledc/include"
       ],
       "defines": [
-        "CONFIG_IDF_TARGET_ESP32"
+        "CONFIG_IDF_TARGET_ESP32C6"
       ],
       "compilerPath": "C:\\Espressif\\tools\\riscv32-esp-elf\\esp-14.2.0_20251107\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe",
-      "cStandard": "c11",
-      "cppStandard": "c++17",
-      "intelliSenseMode": "gcc-x86"
+      "cStandard": "gnu17",
+      "cppStandard": "gnu++17",
+      "intelliSenseMode": "gcc-arm"
     }
   ],
   "version": 4

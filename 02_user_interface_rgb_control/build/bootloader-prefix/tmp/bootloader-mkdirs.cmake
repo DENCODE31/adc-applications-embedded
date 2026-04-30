@@ -10,18 +10,18 @@ if(NOT EXISTS "C:/esp/v5.5.2/esp-idf/components/bootloader/subproject")
   file(MAKE_DIRECTORY "C:/esp/v5.5.2/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/Led_intensity_control/build/bootloader"
-  "C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/Led_intensity_control/build/bootloader-prefix"
-  "C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/Led_intensity_control/build/bootloader-prefix/tmp"
-  "C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/Led_intensity_control/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/Led_intensity_control/build/bootloader-prefix/src"
-  "C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/Led_intensity_control/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/adc-applications-embedded/02_user_interface_rgb_control/build/bootloader"
+  "C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/adc-applications-embedded/02_user_interface_rgb_control/build/bootloader-prefix"
+  "C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/adc-applications-embedded/02_user_interface_rgb_control/build/bootloader-prefix/tmp"
+  "C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/adc-applications-embedded/02_user_interface_rgb_control/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/adc-applications-embedded/02_user_interface_rgb_control/build/bootloader-prefix/src"
+  "C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/adc-applications-embedded/02_user_interface_rgb_control/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/Led_intensity_control/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/adc-applications-embedded/02_user_interface_rgb_control/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/Led_intensity_control/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/adc-applications-embedded/02_user_interface_rgb_control/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

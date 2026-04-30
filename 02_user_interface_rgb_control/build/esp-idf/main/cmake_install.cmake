@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/Led_intensity_control/main
+# Install script for directory: C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/adc-applications-embedded/02_user_interface_rgb_control/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

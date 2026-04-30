@@ -1,0 +1,3 @@
+Command: ninja flash
+ninja: error: remove(esp-idf\spi_flash\CMakeFiles\__idf_spi_flash.dir\spi_flash_chip_boya.c.obj.d): The process cannot access the file because it is being used by another process.
+

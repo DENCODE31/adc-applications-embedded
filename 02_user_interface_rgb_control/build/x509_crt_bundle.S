@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/Led_intensity_control/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/adc-applications-embedded/02_user_interface_rgb_control/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)
