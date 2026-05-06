@@ -44,7 +44,7 @@
 /* ========================================================================== */
 
 /*
- * Circuito: 3.3V --- R_SERIE (10 kΩ) --- [GPIO4/ADC] --- NTC (10 kΩ) --- GND
+ * Circuito: 3.3V --- R_SERIE (10 kΩ) --- [GPIO4/ADC] --- NTC (5 kΩ) --- GND
  *
  * La NTC disminuye su resistencia al subir la temperatura.
  * A mayor temperatura → mayor tension en el nodo ADC → mayor lectura cruda.
@@ -55,8 +55,8 @@
  * voltaje real, por lo que R_ntc y la temperatura son mas precisas (~0.5-1 °C mejor).
  */
 
-#define NTC_BETA             (3950.0f)    /* Coeficiente Beta de la NTC 10K: caracteriza su curva resistencia-temperatura. */
-#define NTC_R0               (5000.0f)   /* Resistencia nominal de la NTC a 25 °C en ohms. */
+#define NTC_BETA             (3900.0f)    /* Coeficiente Beta de la NTC 5K: caracteriza su curva resistencia-temperatura. */
+#define NTC_R0               (5000.0f)   /* Resistencia nominal (5kΩ) de la NTC a 25 °C en ohms. */
 #define NTC_T0_KELVIN        (298.15f)   /* Temperatura nominal en Kelvin (25 °C + 273.15). */
 #define NTC_R_SERIE          (10000.0f)  /* Resistencia en serie del divisor de voltaje en ohms. */
 #define NTC_VCC_MV           (3300)      /* Tension de alimentacion del divisor en milivoltios. */
@@ -105,7 +105,7 @@ typedef enum {                            /* Tipo enumerado que representa el co
 /* ========================================================================== */
 
 static void config_ntc_adc(                                          /* Configura la unidad ADC y crea el esquema de calibracion. */
-    adc_oneshot_unit_handle_t *adc_handle,                           /* Puntero donde se guardara el manejador de la unidad ADC. */
+    adc_oneshot_unit_handle_t *adc_handle,                           /* Puntero donde se guardara eL ADC creado. */
     adc_cali_handle_t         *cali_handle)                          /* Puntero donde se guardara el manejador de calibracion. */
 {                                                                    /* Inicia el bloque de codigo de config_ntc_adc. */
     adc_oneshot_unit_init_cfg_t init_cfg = {                         /* Estructura de inicializacion de la unidad ADC. */
