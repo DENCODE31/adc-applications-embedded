@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "led_intensity_control",
-    "project_version":    "8484514-dirty",
+    "project_version":    "ae73bdc-dirty",
     "project_path":       "C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/adc-applications-embedded/02_user_interface_rgb_control",
     "idf_path":           "C:/esp/v5.5.2/esp-idf",
     "build_dir":          "C:/Users/ALIENWARE/Desktop/Personal/UNAL_9_SEM/STR/adc-applications-embedded/02_user_interface_rgb_control/build",
